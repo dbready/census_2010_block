@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "census_2010_block"
+version = "0.1.0"
+description = ""
+authors = ["Damien Ready <dbready@gmail.com>"]
+
+[tool.poetry.dependencies]
+area = "^1.1.1"
+pyshp = "^2.3.1"
+python = "^3.10"
+tqdm = "^4.64.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
